@@ -6,7 +6,8 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
+            Student NonRoboticStudent = new Student("Natasha", 23669, 1, 4.0);
+            Console.Write($"{NonRoboticStudent.Name} with id {NonRoboticStudent.StudentId} has {NonRoboticStudent.NumberOfCredits} credit hour(s) and a GPA of {NonRoboticStudent.Gpa}");
         }
     }
 }
